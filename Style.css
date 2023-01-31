@@ -1,3 +1,42 @@
 * {
     box-sizing: border-box;
 }
+body {
+    background-image: url(SpaceImage.jpg);
+}
+header {
+    background-color: #5B3765;
+    margin: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.NavLinks {
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    color: white;
+}
+.AckerMannLogo {
+    width: 9rem;
+    height: 7rem;
+}
+.HomePageImgDiv {
+    background-color: #5B3765;
+}
+.HomePageFirstImage {
+    width: 46rem;
+    padding: 2rem;
+}
+main {
+    margin: auto;
+    max-width: 72rem;
+    background-color: lightcyan;
+}
