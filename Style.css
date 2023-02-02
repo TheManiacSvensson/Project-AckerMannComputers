@@ -20,6 +20,7 @@ nav {
 .NavLinks {
     display: flex;
     justify-content: space-between;
+    margin: 1rem;
 }
 h1 {
     color: white;
@@ -30,13 +31,42 @@ h1 {
 }
 .HomePageImgDiv {
     background-color: #5B3765;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .HomePageFirstImage {
     width: 46rem;
-    padding: 2rem;
+    padding: 1rem;
 }
 main {
     margin: auto;
     max-width: 72rem;
     background-color: lightcyan;
+    min-height: 100rem;
+}
+.HomePageText {
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+.HomePageContent {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin: 2rem;
+}
+.ProductCard {
+    width: 15rem;
+    height: 27rem;
+    margin: 2rem;
+    border: ridge 2px black;
+}
+.ProductIMG {
+    width: 99%;
+    padding: 1rem;
+}
+.ProductText {
+    padding-left: 1rem;
+    padding-bottom: 1rem; ;
 }
