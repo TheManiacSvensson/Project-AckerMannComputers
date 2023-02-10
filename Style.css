@@ -30,7 +30,7 @@ h1 {
     height: 7rem;
 }
 .HomePageImgDiv {
-    background-color: #5B3765;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -43,12 +43,11 @@ main {
     margin: auto;
     max-width: 72rem;
     background-color: white;
-    min-height: 100rem;
+    min-height: 90rem;
 }
 .HomePageText {
     padding: 1rem;
     text-align: center;
-    color: white;
 }
 .HomePageContent {
     display: flex;
@@ -70,4 +69,16 @@ main {
     padding-left: 1rem;
     padding-bottom: 2rem;
     padding-right: 1rem;
+}
+.CustReviContainer {
+    padding: 2rem;
+    margin: 1rem;
+    border: solid black 1px;
+}
+.TopText {
+    text-align: center;
+}
+.ourComputerContainer {
+    display: flex;
+    flex-direction: column;
 }
