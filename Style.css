@@ -42,7 +42,7 @@ h1 {
 main {
     margin: auto;
     max-width: 72rem;
-    background-color: lightcyan;
+    background-color: white;
     min-height: 100rem;
 }
 .HomePageText {
@@ -58,7 +58,7 @@ main {
 }
 .ProductCard {
     width: 15rem;
-    height: 27rem;
+    height: 28.5rem;
     margin: 2rem;
     border: ridge 2px black;
 }
@@ -68,5 +68,6 @@ main {
 }
 .ProductText {
     padding-left: 1rem;
-    padding-bottom: 1rem; ;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
 }
